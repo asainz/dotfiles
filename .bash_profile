@@ -6,7 +6,7 @@ done
 unset file
 
 # init z   https://github.com/rupa/z
-. ~/code/z/z.sh
+. ~/Code/z/z.sh
 
 # init rvm
 
@@ -35,3 +35,10 @@ export PATH=/Library/Frameworks/Python.framework/Versions/3.4/bin:/Users/andres.
 
 export spring_profiles_active=dev
 export spring_config_location=/Users/andres.sainz/Code/Projects/Sears/MyGarage/BK/src/main/config/dev/
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
