@@ -7,9 +7,10 @@ REPO_PATH=$(cd "$(dirname "$0")" && pwd)
 sh "$REPO_PATH/scripts/brew.sh"
 sh "$REPO_PATH/scripts/shell.sh"
 sh "$REPO_PATH/scripts/vscode.sh"
-sh "$REPO_PATH/scripts/sublime.sh"
+# sh "$REPO_PATH/scripts/sublime.sh"
 sh "$REPO_PATH/scripts/cask.sh"
 sh "$REPO_PATH/scripts/mas.sh"
 sh "$REPO_PATH/scripts/macos.sh"
+sh "$REPO_PATH/scripts/dock.sh"
 
 echo "✨ Setup complete - restart machine"

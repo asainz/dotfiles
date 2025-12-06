@@ -17,7 +17,9 @@
 	p = pull --recurse-submodules
 
 	# Clone a repository including all submodules
-	c = clone --recursive
+	# c = clone --recursive
+
+	c = commit
 
 	b = branch
 
@@ -219,13 +221,13 @@
 # NOTE: Yes, it's OK that `signingKey` is public
 [user]
 	name = Andrés Sainz de Aja
-	email = me@alecrust.com
+	email = andres@getharley.com
 
 [gpg]
 	program = /Applications/SourceTree.app/Contents/Resources/bin/stgpg.sh
 
 [commit]
-	gpgsign = true
+	gpgsign = false
 	template = $HOME/.stCommitMsg
 
 # Sourcetree specific

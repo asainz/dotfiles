@@ -9,15 +9,13 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
 # Use zoxide by default
-alias z = cd
+alias z="cd"
 
 # Delete all branches except main
-alias delete_branches = "git branch | grep -v "main" | xargs git branc -D"
+alias delete_branches="git branch | grep -v "main" | xargs git branc -D"
 
 # Amend latest commit with staged changes
-alias fix = "git commit --amend --no-edit"
-
-# Better ls
+alias fix="git commit --amend --no-edit"
 
 # Shorten common commands
 alias e="exit"

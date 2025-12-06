@@ -37,3 +37,5 @@ antidote load
 # Source additional files last to override any plugins
 [[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
 [[ -f $HOME/.extra ]] && source "$HOME/.extra"
+
+eval "$(starship init zsh)"
