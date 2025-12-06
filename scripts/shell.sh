@@ -34,6 +34,7 @@ mkdir -p "$HOME/.config/mise"
 symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
 symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
+symlink "$REPO_PATH/configs/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
 
 # Symlink Nextcloud dirs if present
 if [ -d "$HOME/Nextcloud/Apps/" ]; then
