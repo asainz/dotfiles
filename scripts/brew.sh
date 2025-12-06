@@ -22,6 +22,8 @@ brew install grep
 brew install vim
 brew install zsh
 brew install git
+brew install zoxide
+brew install eza
 
 # Development tools
 brew install gh
@@ -44,31 +46,29 @@ brew install actionlint
 brew install shellcheck
 brew install imagemagick
 brew install stripe/stripe-cli/stripe
+brew install docker
 
 # Other utilities
 brew install jq
 brew install bat
-brew install lsd
 brew install mas
 brew install hstr
-brew install tldr
 brew install btop
 brew install infat
 brew install ffmpeg
 brew install rename
 brew install rclone
 brew install bottom
-brew install zoxide
-brew install yt-dlp
-brew install thefuck
 brew install antidote
 brew install dockutil
 brew install exiftool
 brew install starship
 brew install dark-mode
-brew install subversion
 brew install speedtest-cli
 brew install homeassistant-cli
+brew install the_silver_searcher
+brew install kubernetes-cli
+brew install aws-amplify
 
 # Fonts
 brew install font-fira-code

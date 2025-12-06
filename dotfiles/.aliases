@@ -8,6 +8,17 @@ alias p="cd ~/projects"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
+# Use zoxide by default
+alias z = cd
+
+# Delete all branches except main
+alias delete_branches = "git branch | grep -v "main" | xargs git branc -D"
+
+# Amend latest commit with staged changes
+alias fix = "git commit --amend --no-edit"
+
+# Better ls
+
 # Shorten common commands
 alias e="exit"
 alias h="history"
@@ -17,12 +28,8 @@ alias ytd="yt-dlp"
 # Use latest curl (only when running interactively)
 alias curl='/opt/homebrew/opt/curl/bin/curl'
 
-# lsd (ls replacement)
-alias ls='lsd'
-alias l='ls -l'
-alias la='ls -a'
-alias lla='ls -la'
-alias lt='ls --tree'
+# eza (ls replacement)
+alias ls="eza --hyperlink --git --all --width=1 --long --no-permissions --no-filesize --no-user --no-time"
 
 # bat (cat replacement)
 alias cat="bat --paging=never"

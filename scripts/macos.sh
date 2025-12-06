@@ -6,10 +6,10 @@ echo "==> 📜 Changing macOS settings"
 sudo nvram StartupMute=%01
 
 # Set computer name so alecs-macbook.local is a hostname
-sudo scutil --set ComputerName "Alec's MacBook"
-sudo scutil --set HostName "alecs-macbook"
-sudo scutil --set LocalHostName "alecs-macbook"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "alecs-macbook"
+# sudo scutil --set ComputerName "Alec's MacBook"
+# sudo scutil --set HostName "alecs-macbook"
+# sudo scutil --set LocalHostName "alecs-macbook"
+# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "alecs-macbook"
 
 # Show the /Volumes folder
 sudo chflags nohidden /Volumes
@@ -24,8 +24,8 @@ sudo mdutil -a -i off
 defaults write com.apple.Safari IncludeInternalDebugMenu 1
 
 # Set language and text formats
-defaults write NSGlobalDomain AppleLanguages -array "en"
-defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
+defaults write NSGlobalDomain AppleLanguages -array "en" "es"
+defaults write NSGlobalDomain AppleLocale -string "en_NL@currency=EUR"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
