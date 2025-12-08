@@ -12,7 +12,7 @@ alias dt="cd ~/Desktop"
 alias z="cd"
 
 # Delete all branches except main
-alias delete_branches="git branch | grep -v "main" | xargs git branc -D"
+alias delete_branches="git branch | grep -v "main" | xargs git branch -D"
 
 # Amend latest commit with staged changes
 alias fix="git commit --amend --no-edit"
