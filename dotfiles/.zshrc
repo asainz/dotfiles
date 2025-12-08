@@ -38,4 +38,7 @@ antidote load
 [[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
 [[ -f $HOME/.extra ]] && source "$HOME/.extra"
 
+# enable git autocompletion
+autoload -Uz compinit && compinit
+
 eval "$(starship init zsh)"
