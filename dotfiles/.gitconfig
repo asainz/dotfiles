@@ -182,6 +182,11 @@
 	# Rebase the current branch on top of the upstream branch after fetching
 	rebase = true
 
+[rebase]
+
+    # Automatically stash and apply local changes before and after rebasing
+    autoStash = true
+
 [push]
 
 	# Make `git push` push relevant annotated tags when pushing branches out.
