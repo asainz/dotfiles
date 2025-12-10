@@ -36,6 +36,10 @@ symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.tom
 symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
 symlink "$REPO_PATH/configs/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
 
+# Symlink some scripts
+mkdir -p "$HOME/bin"
+symlink "$REPO_PATH/scripts/gdone.zsh" "$HOME/bin/gdone.zsh"
+
 # Symlink Nextcloud dirs if present
 if [ -d "$HOME/Nextcloud/Apps/" ]; then
   symlink "$HOME/Nextcloud/Apps/macbook-scripts" "$HOME/scripts"

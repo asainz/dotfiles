@@ -38,6 +38,11 @@ antidote load
 [[ -f $HOME/.aliases ]] && source "$HOME/.aliases"
 [[ -f $HOME/.extra ]] && source "$HOME/.extra"
 
+
+for file in "$HOME/bin/"*.zsh; do
+  [ -f "$file" ] && source "$file"
+done
+
 # enable git autocompletion
 autoload -Uz compinit && compinit
 
