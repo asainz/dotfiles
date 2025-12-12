@@ -23,6 +23,7 @@ brew install vim
 brew install zsh
 brew install git
 brew install zoxide
+brew install fzf
 brew install eza
 
 # Development tools
