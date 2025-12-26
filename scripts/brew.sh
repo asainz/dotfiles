@@ -25,6 +25,8 @@ brew install git
 brew install zoxide
 brew install fzf
 brew install eza
+brew install rm-improved
+brew install fd
 
 # Development tools
 brew install gh

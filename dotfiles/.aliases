@@ -9,7 +9,13 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
 # Use zoxide by default
-alias z="cd"
+alias cd="z"
+
+# Use rip by default
+alias rm="rip"
+
+# Use fd by default
+alias find="fd"
 
 # Delete all branches except main
 alias delete_branches="git branch | grep -v "main" | xargs git branch -D"
