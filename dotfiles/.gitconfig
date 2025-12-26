@@ -228,6 +228,10 @@
 	name = Andrés Sainz de Aja
 	email = andressainz@gmail.com
 
+# Include personal config for repos in ~/projects/gh
+[includeIf "gitdir:~/projects/gh/"]  
+    path = ~/.gitconfig-gh
+
 [gpg]
 	program = /Applications/SourceTree.app/Contents/Resources/bin/stgpg.sh
 
