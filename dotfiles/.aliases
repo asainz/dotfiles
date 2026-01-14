@@ -9,7 +9,10 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
 # Use zoxide by default
-alias cd="z"
+# alias cd="z"
+if [[ $- == *i* ]]; then
+  alias cd="z"
+fi
 
 # Use rip by default
 alias rm="rip"
