@@ -18,7 +18,10 @@ fi
 alias rm="rip"
 
 # Use fd by default
-alias find="fd"
+# alias find="fd"
+if [[ $- == *i* ]]; then
+  alias find="fd"
+fi
 
 # Delete all branches except main
 alias delete_branches="git branch | grep -v "main" | xargs git branch -D"
