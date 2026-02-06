@@ -47,3 +47,7 @@ done
 autoload -Uz compinit && compinit
 
 eval "$(starship init zsh)"
+
+[[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
+
+export CODEX_HOME="$HOME/.codex"
