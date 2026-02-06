@@ -26,6 +26,7 @@ brew install --cask sourcetree
 brew install --cask imageoptim
 brew install --cask sublime-merge
 brew install --cask google-chrome
+brew install --cask google-chrome@canary
 brew install --cask docker-desktop
 brew install --cask google-cloud-sdk
 brew install --cask github
