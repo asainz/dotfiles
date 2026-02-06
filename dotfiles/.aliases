@@ -8,19 +8,24 @@ alias p="cd ~/projects"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
-# Use zoxide by default
-# alias cd="z"
+alias paper='open -a "Paper"'
+
+# Apply this alias only in interactive shells (e.g. NOT in claude code)
 if [[ $- == *i* ]]; then
+  # Use zoxide by default
   alias cd="z"
-fi
 
-# Use rip by default
-alias rm="rip"
+  # Use rip by default
+  alias rm="rip"
 
-# Use fd by default
-# alias find="fd"
-if [[ $- == *i* ]]; then
+  # Use fd by default 
   alias find="fd"
+  
+  # eza (ls replacement)
+  alias ls="eza --hyperlink --git --all --width=1 --long --no-permissions --no-filesize --no-user --no-time"
+  
+  # bat (cat replacement)
+  alias cat="bat --paging=never"
 fi
 
 # Delete all branches except main
@@ -37,12 +42,6 @@ alias ytd="yt-dlp"
 
 # Use latest curl (only when running interactively)
 alias curl='/opt/homebrew/opt/curl/bin/curl'
-
-# eza (ls replacement)
-alias ls="eza --hyperlink --git --all --width=1 --long --no-permissions --no-filesize --no-user --no-time"
-
-# bat (cat replacement)
-alias cat="bat --paging=never"
 
 # bottom (top replacement)
 alias top="btm"
