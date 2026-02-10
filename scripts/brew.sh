@@ -50,6 +50,7 @@ brew install shellcheck
 brew install imagemagick
 brew install stripe/stripe-cli/stripe
 brew install docker
+brew install go-task
 
 # Other utilities
 brew install jq
