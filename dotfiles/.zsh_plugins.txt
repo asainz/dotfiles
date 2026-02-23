@@ -21,6 +21,7 @@ ohmyzsh/ohmyzsh path:plugins/starship
 ohmyzsh/ohmyzsh path:plugins/multipass
 ohmyzsh/ohmyzsh path:plugins/1password
 
+
 # Standard Zsh plugins
 djui/alias-tips
 jgogstad/zsh-mask

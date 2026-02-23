@@ -74,9 +74,14 @@ brew install the_silver_searcher
 brew install kubernetes-cli
 brew install aws-amplify
 
+# zsh plugins
+# brew install zsh-autocomplete
+brew install zsh-syntax-highlighting
+brew install fzf-tab
+
 # Fonts
 brew install font-fira-code
 brew install font-fira-code-nerd-font
-
+        
 # Tidy up Homebrew versions
 brew cleanup
