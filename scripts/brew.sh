@@ -73,6 +73,7 @@ brew install homeassistant-cli
 brew install the_silver_searcher
 brew install kubernetes-cli
 brew install aws-amplify
+brew install yq 
 
 # zsh plugins
 # brew install zsh-autocomplete
