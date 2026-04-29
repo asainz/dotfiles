@@ -225,7 +225,7 @@
 # This is set in ~/.extra but duplicated here as gets added automatically
 # NOTE: Yes, it's OK that `signingKey` is public
 [user]
-	name = Andrés Sainz de Aja
+	name = Andrés Sainz de Aja
 	email = andressainz@gmail.com
 
 # Include personal config for repos in ~/projects/gh
@@ -248,3 +248,6 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+
+[submodule]
+    recurse = true
