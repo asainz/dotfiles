@@ -55,3 +55,11 @@ eval "$(starship init zsh)"
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
 
 export CODEX_HOME="$HOME/.codex"
+# Work environment switcher
+source /Users/andres/.work.zsh
+
+
+export EDITOR="code -w"
+export VISUAL="code -w"
+
+export PATH="$HOME/.bun/bin:$PATH"
