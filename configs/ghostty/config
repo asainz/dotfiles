@@ -46,6 +46,7 @@ keybind = option+backspace=text:\x1b\x7f
 
 # theme = dark:catppuccin-mocha,light:catppuccin-latte
 # theme = Catppuccin Latte
-theme = Catppuccin Frappe
+# theme = Catppuccin Frappe
+theme = /Users/andres/Downloads/rose-pine-dawn
 copy-on-select = clipboard
 keybind = global:command+control+`=toggle_quick_terminal
