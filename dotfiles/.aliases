@@ -100,7 +100,7 @@ alias brave='/Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser'
 alias codex="codex --yolo"
 
 # Claude
-alias claude="claude --dangerously-skip-permissions"
+# alias claude="claude --dangerously-skip-permissions"
 
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
