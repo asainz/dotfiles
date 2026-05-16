@@ -35,6 +35,7 @@ symlink "$REPO_PATH/configs/mise/config.toml" "$HOME/.config/mise/config.toml"
 symlink "$REPO_PATH/configs/mise/settings.toml" "$HOME/.config/mise/settings.toml"
 symlink "$REPO_PATH/configs/starship/starship.toml" "$HOME/.config/starship.toml"
 symlink "$REPO_PATH/configs/ghostty/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
+symlink "$REPO_PATH/configs/ghostty/themes" "$HOME/Library/Application Support/com.mitchellh.ghostty/themes"
 
 # Symlink some scripts
 mkdir -p "$HOME/bin"
