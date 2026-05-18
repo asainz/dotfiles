@@ -22,7 +22,7 @@ brew install --cask granola
 brew install --cask gitify
 brew install --cask firefox
 brew install --cask tableplus
-brew install --cask sourcetree
+brew install --cask fork
 brew install --cask imageoptim
 brew install --cask sublime-merge
 brew install --cask google-chrome
