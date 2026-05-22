@@ -59,7 +59,7 @@ export CODEX_HOME="$HOME/.codex"
 source /Users/andres/.work.zsh
 
 
-export EDITOR="code -w"
+export EDITOR="code"
 export VISUAL="code -w"
 
 export PATH="$HOME/.bun/bin:$PATH"
