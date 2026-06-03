@@ -6,6 +6,10 @@ echo "==> 📜 Installing Visual Studio Code"
 
 brew install --cask visual-studio-code
 
+mkdir -p "$HOME/.vscode"
+rm -rf "$HOME/.vscode/custom-css"
+ln -sfn "$REPO_PATH/configs/vscode/custom-css" "$HOME/.vscode/custom-css"
+
 # echo "==> 🔗 Symlinking Visual Studio Code settings"
 
 # ln -sf "$REPO_PATH/configs/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
