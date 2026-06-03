@@ -20,3 +20,5 @@ Thumbs.db
 
 
 .workbox
+
+**/.claude/settings.local.json
