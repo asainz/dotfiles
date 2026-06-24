@@ -16,7 +16,7 @@ brew install --cask iina
 brew install --cask kap
 brew install --cask moom
 brew install --cask font-monaspace
-brew install --cask granola
+brew install --cask jamie
 
 # Development
 brew install --cask gitify
