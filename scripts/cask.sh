@@ -19,7 +19,6 @@ brew install --cask font-monaspace
 brew install --cask jamie
 
 # Development
-brew install --cask gitify
 brew install --cask firefox
 brew install --cask tableplus
 brew install --cask fork
@@ -29,10 +28,6 @@ brew install --cask google-chrome
 brew install --cask google-chrome@canary
 brew install --cask docker-desktop
 brew install --cask google-cloud-sdk
-brew install --cask github
-brew install --cask lens
-brew install --cask openvpn-connect
-brew install --cask postman
 brew install --cask yaak # postman replacement
 brew install --cask zed
 
