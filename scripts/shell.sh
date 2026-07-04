@@ -18,6 +18,8 @@ symlink() {
 
 echo "==> 🔗 Symlinking dotfiles, configs and scripts to ~/"
 
+mkdir -p "$HOME/projects/personal"
+
 # Symlink dotfiles e.g. dotfiles/.aliases to ~/.aliases
 for file in "$REPO_PATH"/dotfiles/.*; do
   if [ -f "$file" ]; then
