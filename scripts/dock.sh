@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # https://github.com/rpavlick/add_to_dock
 
@@ -159,7 +159,7 @@ for app in "${apps[@]}"; do
 done
 
 for folder in "${folders[@]}"; do
-    add_folder_to_dock $folder
+    add_folder_to_dock "$folder"
 done
 
 killall Dock
