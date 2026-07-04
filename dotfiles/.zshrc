@@ -31,7 +31,7 @@ export PATH="$PATH:$ANDROID_HOME/emulator"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 # source $HOMEBREW_PREFIX/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source "$HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 source "$HOMEBREW_PREFIX/opt/fzf-tab/share/fzf-tab/fzf-tab.zsh"
 
 # Load Antidote and plugins
@@ -43,6 +43,7 @@ antidote load
 [[ -f $HOME/.extra ]] && source "$HOME/.extra"
 
 
+# shellcheck disable=SC1090
 for file in "$HOME/bin/"*.zsh; do
   [ -f "$file" ] && source "$file"
 done
@@ -52,6 +53,7 @@ autoload -Uz compinit && compinit
 
 eval "$(starship init zsh)"
 
+# shellcheck disable=SC1090
 [[ "$TERM_PROGRAM" == "kiro" ]] && . "$(kiro --locate-shell-integration-path zsh)"
 
 export CODEX_HOME="$HOME/.codex"
