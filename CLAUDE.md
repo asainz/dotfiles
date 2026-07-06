@@ -59,6 +59,7 @@ ShellCheck runs on every push via `.github/workflows/lint.yml`. Fixes should pas
 | mise runtimes | `configs/mise/config.toml` | `~/.config/mise/config.toml` |
 | branchpilot | `configs/branchpilot/branchpilot.toml` | `~/.config/branchpilot.toml` |
 | Claude Code | `configs/agents/CLAUDE.md` | `~/.claude/CLAUDE.md` |
+| Claude Code rules | `configs/agents/AGENTS.md` | `~/.claude/AGENTS.md` |
 | Codex | `configs/agents/AGENTS.md` | `~/.codex/AGENTS.md` |
 
 ### Aliases

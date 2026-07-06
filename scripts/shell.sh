@@ -42,6 +42,7 @@ mkdir -p "$HOME/.config/ghostty"
 symlink "$REPO_PATH/configs/ghostty/themes" "$HOME/.config/ghostty/themes"
 mkdir -p "$HOME/.claude"
 symlink "$REPO_PATH/configs/agents/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
+symlink "$REPO_PATH/configs/agents/AGENTS.md" "$HOME/.claude/AGENTS.md"
 mkdir -p "$HOME/.codex"
 symlink "$REPO_PATH/configs/agents/AGENTS.md" "$HOME/.codex/AGENTS.md"
 
